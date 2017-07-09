@@ -1,0 +1,17 @@
+<style media="screen">
+	body {
+		text-align: center;
+	}
+	canvas {
+		display: block;
+		margin: 10px auto;
+		background-color: black;
+	}
+</style>
+<body>
+	<canvas id="canvas"></canvas>
+	Alive: <span id="alive">0</span><br>
+	Generation: <span id="generation">0</span><br><br><br>
+	<button onclick="requestAnimationFrame(update)">begin</button>
+	<script src="main.js" charset="utf-8"></script>
+</body>
